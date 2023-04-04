@@ -1,0 +1,43 @@
+#url-input {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  margin-right: 10px;
+}
+
+#url-input:focus {
+  outline: none;
+  border-color: #5cb85c;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #5cb85c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
