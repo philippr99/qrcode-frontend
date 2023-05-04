@@ -28,6 +28,7 @@ export class UrlInputComponent {
       },
       (error) => {
         console.error(error);
+
       }
     );
   }
